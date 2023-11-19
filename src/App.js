@@ -25,7 +25,7 @@ export default function App() {
          <Menu />
          
           <Routes>
-          <Route path="/Calcul" element={<Calcul />} />
+          <Route path="/" element={<Calcul />} />
           <Route path="/TodoList" element={<TodoList />} />
           <Route path="/Slider" element={<Slider images={images} />} />
           <Route path="/api" element={<TpApi />} />

@@ -35,12 +35,11 @@ function Menu(){
           <Nav className="ms-auto" style={{fontSize:"20px"}}>
           <Nav.Link onClick={toggleDarkMode} >
             <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />
-            {/* {darkMode ? ' Light Mode' : ' Dark Mode'} */}
           </Nav.Link>
-            <Nav.Link href="/Calcul">Calculatrice</Nav.Link>
-            <Nav.Link href="/Slider">Slider</Nav.Link>
-            <Nav.Link href="/TodoList">TodoList</Nav.Link>
-            <Nav.Link href="/api">Api</Nav.Link>
+            <Nav.Link as={Link} to='/'>Calculatrice</Nav.Link>
+            <Nav.Link as={Link} to='/Slider'>Slider</Nav.Link>
+            <Nav.Link as={Link} to='/TodoList'>TodoList</Nav.Link>
+            <Nav.Link as={Link} to='/api'>Api</Nav.Link>
             <Nav.Link>
             <img src={fr_png} onClick={() => changeLanguage('fr')}
               style={
