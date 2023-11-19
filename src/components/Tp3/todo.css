@@ -1,0 +1,11 @@
+.todo-light {
+    background-color: #ffffff;
+    color: #333333;
+    height: 100%;
+}
+/* dark mode */
+  
+.todo-dark {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}

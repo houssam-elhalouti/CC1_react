@@ -1,0 +1,19 @@
+{
+    "calcul": {
+      "title": "Welcome to our website",
+      "description": "This is page Tp1_react.",
+      "h1": "Simple Calculator"
+    },
+    "slider": {
+      "title": "Welcome to our website",
+    "description": "This is page Tp2_react."
+    },
+    "todoList": {
+      "title": "Welcome to our website",
+    "description": "This is page Tp3_react."
+    },
+    "api":{
+      "title": "Welcome to our website",
+    "description": "This is page Tp4_react."
+    }
+}

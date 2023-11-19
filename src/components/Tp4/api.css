@@ -1,0 +1,11 @@
+.api-light {
+    background-color: #ffffff;
+    color: #333333;
+    height: 100%;
+}
+/* dark mode */
+  
+.api-dark {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}

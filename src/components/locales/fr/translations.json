@@ -1,0 +1,20 @@
+{
+    "calcul": {
+      "title": "Bienvenue sur notre site web",
+      "description": "C'est la page Tp1_react.",
+      "h1":"Calculatrice Simple"
+    },
+    "slider": {
+      "title": "Bienvenue sur notre site web",
+      "description": "C'est la page Tp2_react."
+    },
+    "todoList": {
+      "title": "Bienvenue sur notre site web",
+      "description": "C'est la page Tp3_react."
+    },
+    "api":{
+      "title": "Bienvenue sur notre site web",
+      "description": "C'est la page Tp4_react."
+    }
+}
+
