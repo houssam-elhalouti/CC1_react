@@ -37,7 +37,7 @@ function Menu(){
             <FontAwesomeIcon icon={darkMode ? faSun : faMoon} />
             {/* {darkMode ? ' Light Mode' : ' Dark Mode'} */}
           </Nav.Link>
-            <Nav.Link href="/">Calculatrice</Nav.Link>
+            <Nav.Link href="/Calcul">Calculatrice</Nav.Link>
             <Nav.Link href="/Slider">Slider</Nav.Link>
             <Nav.Link href="/TodoList">TodoList</Nav.Link>
             <Nav.Link href="/api">Api</Nav.Link>

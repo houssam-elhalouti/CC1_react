@@ -4,7 +4,7 @@ import Menu from './components/Menu';
 import Calcul from './components/Tp1/Calcul';
 import Slider from './components/Tp2/Slider';
 import TodoList from './components/Tp3/TodoList';
-import PageNotFound from './components/PageNotFound ';
+// import PageNotFound from './components/PageNotFound ';
 import TpApi from './components/Tp4/TpApi';
 import { ThemeProvider } from './components/ThemeContext';
 export default function App() {
@@ -15,7 +15,7 @@ export default function App() {
     'image3.jpg',
     'image4.jpg',
     'image5.jpg',
-    // Add your image URLs here
+    
   ];
 
 
@@ -25,11 +25,10 @@ export default function App() {
          <Menu />
          
           <Routes>
-          <Route path="/" element={<Calcul />} />
+          <Route path="/Calcul" element={<Calcul />} />
           <Route path="/TodoList" element={<TodoList />} />
           <Route path="/Slider" element={<Slider images={images} />} />
           <Route path="/api" element={<TpApi />} />
-          <Route path="*" element={<PageNotFound />} />
           </Routes>
     </div>
     </ThemeProvider>
